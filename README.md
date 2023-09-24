@@ -75,5 +75,5 @@ No | Fearture
 7 | Tính năng viết và gán nhãn lên ảnh
 8 | Chức năng album Favorite
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [@tranxuanan](https://www.linkedin.com/in/tran-xuan-an-8b6174204/) - feel free to contact me!
 
