@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idRVAlbums"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNavTimelineAlbum" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomNavTimelineAlbum"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_timeline_album_menu"
+        android:background="@color/design_default_color_primary"
+        app:itemIconTint="@color/custom_color_bottom_nav"
+        app:itemTextColor="@color/custom_color_bottom_nav"
+        app:itemIconSize="30dp"
+        app:layout_behavior="@string/hide_bottom_view_on_scroll_behavior">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+</RelativeLayout>

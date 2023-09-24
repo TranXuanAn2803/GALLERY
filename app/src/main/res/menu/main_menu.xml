@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/addButton"
+        android:icon="@drawable/ic_baseline_add_24"
+        android:title="ADD"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/sortDescBtn"
+        android:title="SORT A->Z"
+        />
+    <item
+        android:id="@+id/sortAscBtn"
+        android:title="SORT Z->A"
+        />
+    <item
+        android:id="@+id/findBtn"
+        android:title="FIND" />
+</menu>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/btnfavorite"
+        android:enabled="true"
+        android:icon="@drawable/ic_favorite"
+        android:title="favorite"></item>
+    <item
+        android:id="@+id/btnedit"
+        android:enabled="true"
+        android:icon="@drawable/ic_edit"
+        android:title="edit"
+        />
+    <item
+        android:id="@+id/btndelete"
+        android:enabled="true"
+        android:icon="@drawable/ic_delete"
+        android:title="delete"
+        />
+    <item
+        android:id="@+id/btninfor"
+        android:enabled="true"
+        android:icon="@drawable/ic_infor"
+        android:title="infor"
+        />
+</menu>

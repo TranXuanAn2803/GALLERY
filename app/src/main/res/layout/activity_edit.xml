@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageDrawing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_launcher" />
+    <Button
+        android:id="@+id/saveImageAfterDraw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Image" />
+
+    <LinearLayout
+        android:id="@+id/editBrightness"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:weightSum="7"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp">
+        <ImageButton
+            android:id="@+id/dark3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"/>
+        <ImageButton
+            android:id="@+id/dark2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"/>
+
+        <ImageButton
+            android:id="@+id/dark1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"/>
+
+        <ImageButton
+            android:id="@+id/img_root"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"/>
+        <ImageButton
+            android:id="@+id/light1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"/>
+        <ImageButton
+            android:id="@+id/light2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"/>
+        <ImageButton
+            android:id="@+id/light3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/insertText"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:weightSum="5"
+        android:layout_marginBottom="50dp">
+
+
+        <EditText
+            android:id="@+id/textInsert"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:visibility="invisible"
+            />
+        <Button
+            android:id="@+id/applyBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Apply"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/editSticker"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:weightSum="5"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp">
+
+        <ImageButton
+            android:id="@+id/heartSticker"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/heart"
+
+            android:visibility="invisible"/>
+        <ImageButton
+            android:id="@+id/starSticker"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/star"
+
+            android:visibility="invisible"/>
+
+        <ImageButton
+            android:id="@+id/smileSticker"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/smile"
+
+            android:visibility="invisible"/>
+        <ImageButton
+            android:id="@+id/crySticker"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/cry"
+
+            android:visibility="invisible"/>
+        <ImageButton
+            android:id="@+id/angrySticker"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/angry"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/editDraw"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:weightSum="5"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp">
+
+        <ImageButton
+            android:id="@+id/colorRed"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/red"
+            android:visibility="invisible"/>
+        <ImageButton
+            android:id="@+id/colorBlue"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/blue"
+            android:visibility="invisible"/>
+
+        <ImageButton
+            android:id="@+id/colorGreen"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/green"
+            android:visibility="invisible"/>
+        <ImageButton
+            android:id="@+id/colorBack"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:visibility="invisible"/>
+        <ImageButton
+            android:id="@+id/colorWhite"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:weightSum="9">
+        <ImageButton
+            android:id="@+id/editText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:background="@drawable/ic_baseline_text_fields_24"
+
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/brightness"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/brightness"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/sticker"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:background="@drawable/ic_baseline_sticker"
+
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/crop"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/crop" />
+
+        <ImageButton
+            android:id="@+id/nulll"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/rotate"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rotate" />
+
+        <ImageButton
+            android:id="@+id/nulll"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/draw"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/draw" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

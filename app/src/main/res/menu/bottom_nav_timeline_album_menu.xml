@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/timeline"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_image_24"
+        android:title="@string/timeline"></item>
+    <item
+        android:id="@+id/albums"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_collections_24"
+        android:title="@string/albums"/>
+</menu>
