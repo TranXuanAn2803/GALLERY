@@ -1,4 +1,4 @@
-# Project Name
+# GALLERY
 
 ## Table of Contents
 * [General Info](#general-information)
