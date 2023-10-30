@@ -44,8 +44,7 @@ Tạo album mới | Done
 Xóa một album | Done
 Sắp xếp tên album từ A-Z và từ Z-A | Done
 Tìm kiếm một album | Done
-Thêm một bức ảnh từ Gallery mặc định của điện 
-thoại hoặc Camera | Done
+Thêm một bức ảnh từ Gallery mặc định của điện thoại hoặc Camera | Done
 Lưu ảnh vào bộ nhớ SD | Done
 Chia ứng dụng thành 2 tab Dòng thời gian và Album | Done
 Chức năng vẽ lên một bức hình | Done
